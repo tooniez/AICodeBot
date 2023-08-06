@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aiohttp==3.8.4
+aiohttp==3.8.5
     # via
     #   langchain
     #   openai
@@ -38,6 +38,8 @@ gitdb==4.0.10
     # via gitpython
 gitpython==3.1.32
     # via -r requirements.in
+greenlet==2.0.2
+    # via sqlalchemy
 humanize==4.7.0
     # via -r requirements.in
 idna==3.4
